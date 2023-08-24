@@ -1,0 +1,21 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: Roboto,Arial;
+  height: 3000px;
+  cursor: pointer;
+}
+
+.profile-picture {
+  margin-top: 14px;
+  margin-left: 20px;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  object-fit: unset;
+  border-radius: 25px; 
+}
+

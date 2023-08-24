@@ -1,0 +1,30 @@
+.tweet-container-Medina{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(239, 239, 239);
+  height: 750px;
+  width: 604px;
+  position: relative;
+  margin-left: 270px;
+}
+
+
+.Medina {
+  margin-top: 14px;
+  margin-left: 80px;
+  width: 490px;
+  height: 635px;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.tweet-author-medina {
+  color: gray;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 1px;
+  text-decoration-color: white;
+}
+

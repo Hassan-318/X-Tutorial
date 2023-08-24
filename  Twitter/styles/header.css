@@ -1,0 +1,65 @@
+div {
+  font-family:Roboto,Arial;
+  font-weight: bold;
+  
+}
+
+.header { 
+font-size: 20px;
+border-style: solid;
+border-left-width: 1px;
+border-right-width: 1px;
+height: 95px;
+width: 580px;
+margin-left: 270px;
+margin-top: -12px;
+padding: 12px;
+cursor: pointer;
+position: relative;
+border-color: rgb(239, 239, 239);
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 1;
+}
+
+.button1 {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 100px;
+  bottom: 10px;
+  width: 300px;
+  height: 60px;
+  margin-bottom: -11px;
+  margin-right: 204px;
+  border-style: none;
+  background-color: white;
+}
+
+.button1:hover,
+.button2:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+.button2 {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 100px;
+  bottom: 10px;
+  width: 300px;
+  height: 60px;
+  margin-bottom: -11px;
+  margin-right: -100px;
+  border-style: none;
+  background-color: white;
+}
+
+
+
+
+

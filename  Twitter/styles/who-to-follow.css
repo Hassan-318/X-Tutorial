@@ -1,0 +1,95 @@
+.who-to-follow {
+  background-color: rgb(239, 243, 244);
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 340px;
+  margin-left: 24px;
+}
+
+.who-to-follow__block {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+
+.who-to-follow__block:last-child {
+  border-bottom: none;
+}
+
+.who-to-follow__auhtor-logo {
+  width: 49px;
+  height: 49px;
+  border-radius: 50px;
+  margin-right: 10px;
+  
+}
+
+.who-to-follow__author-slug {
+  color: #657786;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.who-to-follow__author-name {
+  font-size: 15px;
+  font-weight: 700;
+}
+.who-to-follow__author-name:hover {
+text-decoration: underline;
+}
+
+.who-to-follow__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.who-to-follow__heading{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 8px;
+  color: #14171a;
+} 
+
+.who-to-follow__button{
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 25px;
+  padding: 2px;
+  padding-top: 10px;
+  min-width: 70px;
+  text-align: center;
+}
+  
+.who-to-follow__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+.border-radius-bottom-container {
+  margin-left: 6px;
+  height: 20px;
+  width: 280px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color:rgb(239, 243, 244);
+  font-weight: lighter;
+  font-size: 16px;
+  padding: 15px 15px;
+  color: rgb(29, 152, 240);
+}
+
+.verified-elon,
+.verified-fabrizio,
+.verified-ufc {
+  height: 20px;
+ position: relative;
+ right: 2px;
+ bottom: -5px;
+}

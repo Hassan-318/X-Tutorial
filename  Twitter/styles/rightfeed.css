@@ -1,0 +1,156 @@
+.right-section {
+  position: fixed;
+  right: 2px;
+  bottom: 0;
+  top: -20px;
+  background-color: white;
+  width: 372px;
+  z-index: 1;
+  padding-top: 5px;
+  width: 30%; /* Set a width for the container */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+.search-bar {
+  width: 290px;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(239, 243, 244);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 50px;
+  padding-right: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  outline: none;
+}
+
+.search-icon {
+  position: relative;
+  top: -32px;
+  left: 36px;
+  height: 17px;
+}
+
+
+.Get-Verified-container {
+  padding: 18px 12px 12px 16px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: -12px;
+  height: 110px;
+  width: 310px;
+  background-color:rgb(239, 243, 244);
+  border-radius: 15px;
+}
+
+.Verified-text {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.GV-Button {
+  font-size: 16px;
+  width: 120px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px 8px 10px 8px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.GV-Button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+.whats-happening-container {
+  padding: 18px 12px 12px 16px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 30px;
+  width: 310px;
+  background-color:rgb(239, 243, 244);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.whats-happening-1 {
+  padding: 18px 12px 12px 16px;
+  font-size: 14px;
+  margin-left: 25px;
+  height: 30px;
+  width: 310px;
+  background-color:rgb(239, 243, 244);
+}
+
+.Trending-container {
+  padding: 18px 12px 12px 16px;
+  font-size: 14px;
+  margin-left: 25px;
+  height: 50px;
+  width: 310px;
+  background-color:rgb(239, 243, 244);
+}
+
+.Trending {
+  color: gray;
+  margin-top: -4px;
+  font-size: 13px;
+  font-weight: 500; 
+  line-height: 5px;
+  margin-bottom: 12px;
+}
+
+.who-is-trending {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.number-of-post {
+  color: gray;
+  margin-top: -1px;
+  font-size: 13px;
+  font-weight: 500; 
+  line-height: 8px;
+  margin-bottom: 12px;
+}
+
+.border-radius-bottom-container-2 {
+  margin-left: 25px;
+  height: 20px;
+  width: 308px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color:rgb(239, 243, 244);
+  font-weight: lighter;
+  font-size: 16px;
+  padding: 15px 15px;
+  color: rgb(29, 152, 240);
+  
+}
+
+.Trending-container:hover,
+.border-radius-bottom-container-2:hover{
+  background-color: rgb(232, 232, 232);
+}
+
+
+
+
+

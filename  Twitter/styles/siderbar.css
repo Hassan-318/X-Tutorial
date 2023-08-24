@@ -1,0 +1,278 @@
+.sidebar {
+  position: fixed;
+  left: 1px;
+  bottom: 0;
+  top: -10px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+  height: 8000px;
+}
+
+
+.sidebar-X {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row;
+  margin-bottom: -15px;
+} 
+
+.sidebar-X img {
+  height: 30px;
+}
+
+
+
+.Home,
+.Explore {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: -10px;
+  width: 150px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+} 
+
+.photo {
+  height: 24px;
+}
+
+.Home-text {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.Notifications {
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: -10px;
+  padding-right: 15px;
+  width: 200px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+
+.Messages {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-bottom: -10px;
+  padding-right: 16px;
+  width: 180px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.meassges-icon-container,
+.notification-icon-container{
+  position: relative;
+}
+
+.meassges-count,
+.notification-count{
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color:rgb(29, 152, 240);
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 2px 6px 2px 6px; 
+  border-radius: 10px;
+}
+
+.List {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-bottom: -10px;
+  padding-right: 18px;
+  width: 130px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.communities {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-bottom: -10px;
+  padding-right: 20px;
+  width: 200px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+
+.verified-sidebar{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: -10px;
+  padding-right: 15px;
+  width: 150px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+} 
+.Profile-sidebar {
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-bottom: -10px;
+  padding-right: 30px;
+  width: 160px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.More-sidebar {
+  margin-top: 10px;
+  margin-left: 8px;
+  margin-bottom: -10px;
+  padding-right: 18px;
+  width: 130px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+
+
+.Home:hover,
+.Explore:hover,
+.Notifications:hover,
+.Messages:hover,
+.List:hover,
+.communities:hover,
+.verified-sidebar:hover,
+.Profile-sidebar:hover,
+.More-sidebar:hover,
+.Username:hover {
+  background-color: rgb(229, 229, 229);
+  border-radius: 35px;
+}
+
+
+.Explore-text,
+.Notification-text,
+.Messages-text,
+.List-text,
+.communities,
+.verified-text,
+.Profile-sidebar,
+.More-sidebar  {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+.Post {
+  margin-top: 25px;
+  margin-left: 1px;
+  margin-bottom: -10px;
+  padding-right: 20px;
+  width: 265px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.Post-text {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color:rgb(29, 152, 240);
+  width: 300px;
+  height: 40px;
+  padding-top: 16px;
+  border-radius: 50px;
+}
+
+.Post-text:hover {
+  background-color:  rgb(29, 134, 210);
+}
+
+.Username {
+  margin-top: 80px;
+  margin-left: 5px;
+  margin-bottom: -10px;
+  width: 260px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.Username-text {
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 110px;
+  padding-top: -12px;
+}
+
+.Username-Hassan{
+    padding-left: 52px;
+    bottom: 8px;
+    font-weight: lighter;
+    font-size: 13px;
+    color: gray;
+}
+
+
+.Nabawi-sidebar {
+  position: relative;
+  left: 40px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  object-fit: fill;
+  border-radius: 25px; 
+  cursor: pointer;
+}

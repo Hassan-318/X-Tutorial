@@ -1,0 +1,227 @@
+.tweet-container-HC {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(239, 239, 239);
+  height: 615px;
+  width: 604px;
+  position: relative;
+  margin-left: 270px;
+}
+
+.twitter-header {
+  display: inline-block;
+  margin-left: 8px;
+  margin-bottom: 20px;
+  font-family: Arial;
+}
+
+.twitter-header:hover {
+  text-decoration: underline;
+}
+
+.tweet-author {
+  color: gray;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-left: 21px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.verified-HC {
+  height: 20px;
+  margin-top: 30px;
+  position: absolute;
+  top: -12px;
+  left: 176px;
+  margin-left: 4px;
+}
+
+
+
+.line-9 {
+  font-weight: lighter;
+  text-align: center;
+  position: absolute;
+  left: 80px;
+  top: 40px;  
+}
+
+
+.NBA {
+  margin-top: 14px;
+  margin-left: 80px;
+  width: 506px;
+  height: 500px;
+  border-radius: 18px;
+  border-width: 1px;
+  border-color: lightgray;
+  border-style: solid;
+}
+  
+.Reply,
+.Reply-stat,
+.Retweet,
+.retweet-stat,
+.Like,
+.Like-stat,
+.View,
+.analytics-stat {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  column-gap: 25px;
+}
+
+
+
+.More {
+  height: 22px;
+  width: 22px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  padding: 6px 6px 6px 6px;
+}
+
+.More:hover {
+  background-color: lightgray;
+  color: black;
+  opacity: 0.5;
+  border-radius: 35px;
+}
+
+
+
+.Reply {
+  height: 16px;
+  width: 16px;
+  color: gray;
+  position: absolute;
+  bottom: 4px;
+  left: 86px;
+  padding: 6px 6px 6px 6px;
+}
+
+.Reply:hover {
+  color: rgb(29 161 242);
+  background-color: rgb(238, 242, 244);
+  border-radius: 20px;
+}
+
+.Reply-stat {
+  font-size: 12px;
+  color: gray;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 10px;
+  left: 119px;
+}
+
+.Reply-stat:hover {
+  color: rgb(29, 152, 240);
+}
+
+
+
+.Retweet {
+  color: gray;
+  left: 195px;
+  bottom: -1px;
+  padding: 5px;
+}
+
+.Retweet:hover {
+  color: rgb(0, 182, 0);
+  background-color: rgb(235, 241, 235);
+  border-radius: 20px;
+}
+
+.retweet-stat {
+  font-size: 13px;
+  color: gray;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 10px;
+  left: 230px;
+}
+.retweet-stat:hover {
+  color: rgb(0, 182, 0);
+}
+
+
+.Like {
+  margin-left: 19px;
+  color: gray;
+  padding: 4px;
+  position: absolute;
+  bottom: 1px;
+  left: 285px; 
+  
+}
+
+.Like:hover {
+  color: rgb(244,13,48);
+  background-color: rgb(255, 234, 234);
+  border-radius: 25px;
+  
+}
+
+.Like-stat {
+  font-size: 13px;
+  color: gray;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 10px;
+  left: 340px;
+}
+.Like-stat:hover {
+  color: rgb(244,13,48);
+}
+
+
+.View {
+  margin-left: 45px;
+  color: gray;
+  padding: 4px;
+  position: absolute;
+  bottom: 3px;
+  left: 390px;  
+}
+
+.View:hover,
+.Share:hover {
+  color: rgb(29 161 242);
+  background-color: rgb(238, 242, 244);
+  border-radius: 20px;
+}
+
+
+
+.analytics-stat {
+  font-size: 13px;
+  color: gray;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 10px;
+  left: 470px;
+}
+
+.analytics-stat:hover {
+  color: rgb(29, 161, 242);
+}
+
+.Share {
+  margin-left: 45px;
+  color: gray;
+  padding: 4px;
+  position: absolute;
+  bottom: 6px;
+  left: 510px;  
+}
+
+

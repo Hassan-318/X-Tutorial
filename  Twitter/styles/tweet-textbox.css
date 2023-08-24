@@ -1,0 +1,80 @@
+.tweet-textbox {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(239, 239, 239);
+  height: 136px;
+  width: 604px;
+  position: relative;
+  margin-left: 270px;
+}
+
+
+.Mecca {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  object-fit: fill;
+  border-radius: 25px; 
+  cursor: pointer;
+  
+}
+
+.text-box {
+  margin-top: 15px;
+  font-size: 22px;
+  border: none;
+  border-width: 0;
+  vertical-align: middle;
+  width: 300px;
+  margin-left: 8px;
+  outline: none;
+}
+
+.symbols-container  {
+  display: flex;
+  margin-top: 35px;
+  list-style: none;
+}
+
+.symbols-container ol  {
+  display: flex;
+  margin-left: 35px;
+  color: rgb(29, 152, 240);
+  list-style: none;
+  margin-top: 2px;
+}
+
+.symbols-container ol li {
+  margin-right: 12px;
+  padding: 4px 4px 4px 4px;
+}
+
+.symbols-container ol li:hover {
+  background-color: rgb(227, 240, 249);
+  border-radius: 20px;
+}
+
+.location_on {
+  opacity: 0.3;
+  border: white;
+}
+
+
+.tweet-button {
+  font-size: 15px;
+  padding: 10px 18px 10px 18px;
+  border-radius: 28px;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(29, 152, 240);
+  opacity: 0.5;
+  position: absolute;
+  right: 20px;
+  bottom: 8px;
+  
+}
+
+
