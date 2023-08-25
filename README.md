@@ -20,7 +20,7 @@ This webpage has been created using only HTML and CSS, showcasing a variety of f
 
 **Buttons:** Styled buttons are used for interactive elements, demonstrating CSS techniques for button design.
 
-Feel free to explore the features and design elements of X Webpage! If you have any questions or suggestions, please open an issue or reach out to us. We hope you find this project both educational and inspiring.
+Feel free to explore the features and design elements of X Webpage! If you have any questions or suggestions, please open an issue or reach out to me.
 
 
 <img width="1280" alt="X-Webpage" src="https://github.com/Hassan-318/X-Tutorial/assets/142814682/2e2dc9f5-08be-45bf-b608-11c85493ea77">
