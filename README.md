@@ -22,9 +22,9 @@ This webpage has been created using only HTML and CSS, showcasing a variety of f
 
 Feel free to explore the features and design elements of X Webpage! If you have any questions or suggestions, please open an issue or reach out to me.
 
-## Contributions 
 
-If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.
+
+
 
 <img width="1280" alt="X-Webpage" src="https://github.com/Hassan-318/X-Tutorial/assets/142814682/2e2dc9f5-08be-45bf-b608-11c85493ea77">
 <img width="1280" alt="X-Webpage2" src="https://github.com/Hassan-318/X-Tutorial/assets/142814682/bfd88c03-6d1c-46e6-95fc-ea28d5dac78f">
